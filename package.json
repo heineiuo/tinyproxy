@@ -8,7 +8,7 @@
   "main": "lib/index.js",
   "scripts": {
     "test": "jest tests",
-    "build:pkg": "pkg -t node8.3-linux-x64 . --output ./build/tinyproxy-linux",
+    "build:pkg": "pkg -t node8.3-linux-x64 . --output ./build/tinyproxy",
     "build:pkg-macos": "pkg -t node8.3-macos-x64 . --output ./build/tinyproxy-macos",
     "build:pkg-win": "pkg -t node8.3-win-x64 . --output ./build/tinyproxy-win"
   },
