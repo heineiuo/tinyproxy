@@ -14,12 +14,13 @@
   },
   "pkg": {
     "scripts": [
-			"node_modules/node-named/lib/records/**/*.js"
-		]
+      "node_modules/node-named/lib/records/**/*.js"
+    ]
   },
   "author": "@heineiuo",
   "license": "MIT",
   "dependencies": {
+    "compression": "^1.7.1",
     "dotenv": "^4.0.0",
     "express": "^4.15.4",
     "http-proxy": "^1.16.2",
