@@ -30,15 +30,10 @@ app.listen(10835, () => {
 const { SeashellClient } = require('seashell')
 const http = require('http')
 
-
 const client = new SeashellClient()
 
-const target = 'http://localhost:10835'
-
+// target service address : 'http://localhost:10835'
 client.createServer((req, res) => {
-  // delete req.headers.httpHeaders.host
-  // delete req.headers.httpHeaders.connection
-  // console.log(req.headers)
   const targetReq = http.request({
     protocol: 'http:',
     hostname: 'localhost',
@@ -56,13 +51,10 @@ client.createServer((req, res) => {
   })
 
   req.on('data', (data) => {
-    // console.log(data)
-    if (!data) return
     targetReq.write(data)
   })
 
   req.on('end', () => {
-    // console.log('end')
     targetReq.end()
   })
 
