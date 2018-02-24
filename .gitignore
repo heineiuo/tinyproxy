@@ -32,3 +32,4 @@ packages/*/images
 !packages/*/src/**/*.js
 !packages/tiny/lib/**/*
 !packages/tiny/index.js
+*.gitignore.*
