@@ -30,6 +30,7 @@
     "morgan": "^1.8.2",
     "ms": "^2.0.0",
     "node-named": "0.0.1",
+    "parse-domain": "^2.0.0",
     "seashell": "file:../seashell",
     "vhost": "^3.0.2"
   }
