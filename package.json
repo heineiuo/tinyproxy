@@ -27,13 +27,11 @@
     "http-parser-js": "^0.4.11",
     "http-proxy": "^1.16.2",
     "letiny": "^0.1.1",
-    "lodash": "^4.17.4",
     "mkdirp": "^0.5.1",
     "morgan": "^1.8.2",
     "ms": "^2.0.0",
     "node-named": "0.0.1",
     "parse-domain": "^2.0.0",
-    "seashell": "file:../seashell",
     "vhost": "^3.0.2"
   }
 }
