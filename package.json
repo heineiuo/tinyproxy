@@ -32,6 +32,7 @@
     "ms": "^2.0.0",
     "node-named": "0.0.1",
     "parse-domain": "^2.0.0",
+    "seashell": "^0.14.4",
     "vhost": "^3.0.2"
   }
 }
