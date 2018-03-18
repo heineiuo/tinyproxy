@@ -9,6 +9,7 @@
   "scripts": {
     "test": "jest tests",
     "build": "npm run build:pkg",
+    "build:docker": "docker build -t tinyproxy:latest .",
     "build:pkg": "pkg -t node8.3-linux-x64 . --output ./build/tinyproxy",
     "build:pkg-macos": "pkg -t node8.3-macos-x64 . --output ./build/tinyproxy-macos",
     "build:pkg-win": "pkg -t node8.3-win-x64 . --output ./build/tinyproxy-win"
@@ -30,7 +31,7 @@
     "mkdirp": "^0.5.1",
     "morgan": "^1.8.2",
     "ms": "^2.0.0",
-    "node-named": "0.0.1",
+    "native-dns": "^0.7.0",
     "parse-domain": "^2.0.0",
     "seashell": "^0.14.4",
     "vhost": "^3.0.2"
